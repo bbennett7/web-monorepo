@@ -5,5 +5,13 @@
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "my-app-client:start": "yarn workspace my-app-client start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**", "packages/**/**"
+    ]
   }
 }
