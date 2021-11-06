@@ -1,0 +1,10 @@
+**/node_modules/**
+**/build/**
+**/dist/**
+
+**/storybook-static/**
+**/.git/**
+**/public/**
+
+jest.config.ts
+rollup.config.js
