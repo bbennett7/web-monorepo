@@ -1,4 +1,6 @@
 import React from 'react';
+import { Button } from 'components';
+import { formatters } from 'utils';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <Button label="This is component from a shared library" />
+        <p>{formatters.toSentenceCase('this is text formatted with a shared formatter')}</p>
       </header>
     </div>
   );
